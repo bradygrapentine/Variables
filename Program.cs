@@ -24,8 +24,14 @@ namespace Variables
             // Console.WriteLine("It is a pleasure to meet you, " + name + ".");
             Console.Write("It is a pleasure to meet you, ");
             Console.WriteLine(name);
-            Console.WriteLine("It is a pleasure to meet you, " + name + ".");
-
+            //interpolation below
+            Console.WriteLine($"It is a pleasure to meet you, {name}.");
+            Console.Write("What is your score?");
+            var scoreAsString = Console.ReadLine();
+            var inputScore = int.Parse(scoreAsString);
+            // if you use double.Parse(scoreAsString) then the console can accept decimal input
+            var doubledScore = inputScore * 2;
+            Console.WriteLine(doubledScore);
             //just playing around fam
             /* apparently I have to speak english or the
             computer yells at me...
