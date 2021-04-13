@@ -24,9 +24,11 @@ namespace Variables
             // Console.WriteLine("It is a pleasure to meet you, " + name + ".");
             Console.Write("It is a pleasure to meet you, ");
             Console.WriteLine(name);
+            Console.WriteLine("It is a pleasure to meet you, " + name + ".");
+
             //just playing around fam
             /* apparently I have to speak english or the
-            computer yells at me
+            computer yells at me...
             very scary */
         }
     }
